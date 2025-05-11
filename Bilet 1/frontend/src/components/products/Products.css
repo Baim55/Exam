@@ -1,0 +1,31 @@
+#product-area {
+  margin: 100px 0;
+}
+
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort button {
+  background: linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-title p {
+  color: #777;
+}
+
+.search {
+  padding: 5px 10px;
+  border-radius: 10px;
+}

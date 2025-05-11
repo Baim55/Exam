@@ -1,0 +1,56 @@
+#product-area {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.product-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-title h4 {
+  color: #d4d4d4;
+}
+
+.product-title h2 {
+  font-size: 56px;
+}
+
+.product-title p {
+  color: #b8b8b8;
+  font-size: 20px;
+}
+
+.product-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.search {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+
+@media (max-width: 768px) {
+  .sort {
+    flex-direction: column;
+    width: 50%;
+  }
+}

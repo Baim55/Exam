@@ -1,0 +1,31 @@
+#gallery-area {
+  padding: 100px 0;
+}
+
+.gallery-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery-title h4 {
+  color: #d4d4d4;
+}
+
+.gallery-title h2 {
+  font-size: 56px;
+}
+
+.gallery-title p {
+  color: #b8b8b8;
+  font-size: 20px;
+}
+
+.gallery-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .col-4{
+    margin-bottom: 20px;
+}

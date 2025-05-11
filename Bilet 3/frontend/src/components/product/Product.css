@@ -1,0 +1,44 @@
+.card{
+    border: none;
+}
+
+.product-price {
+  text-align: center;
+  margin: 40px;
+}
+
+.product-price h5 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.product-price .price {
+  color: orange;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.product-desc{
+    color: #b8b8b8;
+}
+
+.product-btn{
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 8px 20px;
+}
+
+@media (max-width: 768px) {
+  .col-4 {
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 30px;
+  }
+
+  .product-price {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}

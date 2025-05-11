@@ -1,0 +1,80 @@
+#team-area{
+  margin: 100px 0;
+}
+
+.product{
+    justify-content: center;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team h4 {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.team h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#team-area img{
+    width: 260px;
+    margin-bottom: 20px;
+}
+
+.team-title {
+  text-align: center;
+}
+
+.team-title h3 {
+  color: #808080;
+  font-size: 20px;
+}
+
+.team-title h4 {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.team-title p {
+  color: gray;
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 16px;
+  color: white;
+}
+
+.icon-circle {
+  width: 30px;
+  height: 30px;
+  background: #777;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media(max-width:768px){
+  .team-person{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

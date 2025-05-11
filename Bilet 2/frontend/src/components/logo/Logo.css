@@ -1,0 +1,8 @@
+.logo {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.logo span {
+  color: red;
+}

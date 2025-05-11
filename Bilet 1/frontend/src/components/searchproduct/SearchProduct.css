@@ -1,0 +1,28 @@
+#search-products{
+    margin: 80px 0;
+}
+
+.search-product{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.search-product p{
+    color: #777;
+}
+
+.single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.single img{
+    width: 70px;
+}
+
+.desc span {
+    font-weight: 700;
+}

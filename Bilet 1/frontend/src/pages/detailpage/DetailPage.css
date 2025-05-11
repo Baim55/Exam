@@ -1,0 +1,32 @@
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.detail-image {
+  width: 90%;
+}
+
+.detail-price {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.detail-btn {
+  background: linear-gradient(45deg, #f6463d 0%, #f6398d 45%, #f52cdc 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.detail-title {
+  font-size: 45px;
+}
+
+.detail-description {
+  font-size: 20px;
+  color: #777;
+}

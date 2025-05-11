@@ -1,0 +1,94 @@
+#about-area .about {
+  display: flex;
+  align-items: center;
+}
+
+
+.about-title{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.about-title h4 {
+  font-size: 13px;
+  color: #adb5bd;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about-title h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.about-title p {
+  color: gray;
+}
+
+.about-title button {
+  background: black;
+  color: white;
+  padding: 5px 20px;
+  font-weight: 900;
+  margin: 0 10px;
+  border: 2px solid black;
+}
+
+.about-title button:hover {
+  background: inherit;
+  color: black;
+  transition: all 0.3s;
+}
+
+.about-img{
+    position: relative;
+}
+
+.about-img img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.experience {
+    position: relative;
+    width: 470px;
+    bottom: 100px;
+    left: 300px;
+    background: #46ddb0;
+    padding: 20px;
+}
+
+.experience span{
+    display: block;
+}
+
+.experience .year {
+    font-weight: 900;
+    color: white;
+    font-size: 48px;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.experience .caption {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media(max-width:768px){
+  .about-img,.about-us{
+    width: 100%;
+  }
+  .experience{
+    position: relative;
+    width: 250px;
+    bottom: 100px;
+    left: 100px;
+    background: #46ddb0;
+    padding: 20px;
+  }
+
+}

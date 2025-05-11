@@ -1,0 +1,78 @@
+.card {
+  border: none;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product-price {
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.product-price h5 {
+  font-size: 18px;
+}
+
+.product-desc{
+    font-size: 13px;
+}
+
+.icons span {
+  margin: 0 20px;
+  font-size: 15px;
+}
+
+.star {
+  color: rgb(243, 184, 74);
+  margin: 0 10px;
+  position: relative;
+  bottom: 2px;
+}
+
+.heart {
+  color: red;
+  margin: 0 10px;
+  position: relative;
+  bottom: 2px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.basket-btn {
+  background: black;
+  color: white;
+  padding: 5px 15px;
+  font-weight: 900;
+  margin: 0 10px;
+  border: 2px solid black;
+}
+
+.view-btn {
+  background: white;
+  color: black;
+  padding: 5px 20px;
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+.basket-btn:hover{
+    background: inherit;
+    color: black;
+    transition: all 0.3s;
+}
+
+.view-btn:hover{
+    background: black;
+    color: white;
+    transition: all 0.3s;
+}
+
+@media (max-width:768px){
+  .cards{
+    width: 100%;
+  }
+}

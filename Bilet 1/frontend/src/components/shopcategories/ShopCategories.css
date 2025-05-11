@@ -1,0 +1,29 @@
+#shop-area{
+    margin: 100px 0;
+}
+
+.shop{
+    margin: 50px 0;
+}
+
+.shop-title{
+    text-align: center;
+}
+
+.shop-title p{
+    color: #777777
+}
+
+#shop-area .col-6{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    #shop-area .col-6,
+    #shop-area .col-8,
+    #shop-area .col-4,
+    #shop-area .col-12 {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-admin{
+    width: 80px;
+    height: 30px;
+    background-color: inherit;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
