@@ -1,0 +1,19 @@
+.price{
+    
+    color: #abd373;
+    font-size: 20px;
+}
+
+.product-btn{
+    background: #abd373;
+    border: 1px solid #abd373;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.star{
+    color: #ffe24d;
+    display: flex;
+    gap: 7px;
+}

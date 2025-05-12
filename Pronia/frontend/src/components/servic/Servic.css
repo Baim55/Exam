@@ -1,0 +1,21 @@
+.service{
+    border: 1px dashed #abd373;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.service-img{
+    width: 60px;
+}
+
+.service-title{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.service-title h5{
+    font-weight: 600;
+}
+

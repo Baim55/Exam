@@ -1,0 +1,31 @@
+.banner-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+    display: block;
+}
+
+.banner-wrapper .row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.banner-wrapper .col-2 {
+    width: 100px;
+    height: 100px;
+}
+
+.brand-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,42 @@
+#hero-area{
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+}
+
+#hero-area img{
+    position: absolute;
+}
+
+.hero-title {
+    position: relative;
+    top: 80%;
+}
+
+.hero-title h2{
+    font-size: 35px;
+}
+
+.hero-title h1{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.hero-title p{
+    font-size: 22px;
+}
+
+.hero-image img{
+    width: 30%;
+    top: 5%;
+}
+
+.hero-title button{
+    width: 200px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #abd373;
+    border: 1px solid #abd373;
+    color: white;
+    font-size: 18px;
+}
