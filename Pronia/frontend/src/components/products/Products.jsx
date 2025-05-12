@@ -1,15 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 
-import "./Products.css"
-import { useDispatch, useSelector } from 'react-redux'
-import Product from '../product/Product'
-import { getProducts, searchProduct, sortBy } from '../../redux/productSlice'
+import "./Products.css";
+import { useDispatch, useSelector } from "react-redux";
+import Product from "../product/Product";
+import { getProducts, searchProduct, sortBy } from "../../redux/productSlice";
 
 const Products = () => {
+  let { products } = useSelector((state) => state.products);
 
-  let { products } = useSelector((state) => state.products)
-
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const sortByHigh = () => {
     dispatch(sortBy("high"));
@@ -20,8 +19,8 @@ const Products = () => {
   };
 
   useEffect(() => {
-    dispatch(getProducts())
-  }, [dispatch])
+    dispatch(getProducts());
+  }, [dispatch]);
   return (
     <section id="product-area">
       <div className="container">
@@ -30,7 +29,7 @@ const Products = () => {
         </div>
         <div className="row ">
           <div className="col-12">
-            <ul className='product-list'>
+            <ul className="product-list">
               <div className="feat">
                 <li>Featured</li>
               </div>
@@ -54,11 +53,12 @@ const Products = () => {
             <button onClick={sortByHigh}>HighToLow</button>
             <button onClick={sortByLow}>LowToHigh</button>
           </div>
-          {products && products.map((item) => <Product key={item._id} product={item} />)}
+          {products &&
+            products.map((item) => <Product key={item._id} product={item} />)}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

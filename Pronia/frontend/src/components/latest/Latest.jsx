@@ -12,7 +12,7 @@ const Latest = () => {
                     <h1>Latest Area</h1>
                     <p className='cont'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots <br /> in a piece of classical Latin literature</p>
                 </div>
-                <div className="row">
+                <div className="row cards">
                     <div className="col-4 admin">
                         <div className="latest-title">
                             <span>BY:ADMIN 24 APRIL 2021</span>

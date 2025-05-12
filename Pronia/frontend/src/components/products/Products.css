@@ -48,3 +48,15 @@
     border-radius: 10px;
     border: 1px solid #abd373;
 }
+
+@media(max-width:768px){
+    .sort input,.sort button{
+        display: flex;
+        width: 100%;
+    }
+
+    .product-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

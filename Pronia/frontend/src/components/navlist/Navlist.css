@@ -6,9 +6,16 @@
     margin-top: 20px;
 }
 
+.burger{
+  display: none;
+}
+
 @media (max-width: 768px) {
     .list{
-      display: flex;
-      flex-wrap: wrap;
+      display: none;
+    }
+
+    .burger{
+      display: block;
     }
   }

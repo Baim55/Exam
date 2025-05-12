@@ -1,26 +1,33 @@
 #latest-area {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 
 #latest-area h1,
 .cont {
-    text-align: center;
+  text-align: center;
 }
 
 .cont {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .admin {
-    background-color: #f6f7fb;
-    padding: 35px 30px 40px 30px;
+  background-color: #f6f7fb;
+  padding: 35px 30px 40px 30px;
+  width: 360px;
+  border-radius: 15px;
 }
 
 .latest-title span {
-    color: #abd373;
+  color: #abd373;
 }
 
-.latest-title h2{
-    font-size: 23px;
-    margin-top: 20px;
+.latest-title h2 {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
 }
