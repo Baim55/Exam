@@ -1,0 +1,28 @@
+.new {
+    text-align: center;
+    margin-top: 74px;
+}
+
+.new h2 {
+    font-size: 40px;
+}
+
+.new-sort {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.new-sort button {
+    padding: 5px 20px;
+    border: 1px solid rgb(201, 199, 199);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.new-btn-active {
+    background: #fe4c50;
+    color: white;
+    border: 1px solid #fe4c50;
+}

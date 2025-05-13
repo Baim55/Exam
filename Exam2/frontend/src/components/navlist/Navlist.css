@@ -1,0 +1,25 @@
+.list{
+    display: flex;
+    gap: 20px;
+}
+
+.list li{
+    color: #1e1e27;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.burger{
+    display: none;
+}
+
+@media(max-width:768px){
+    .burger{
+        display: block;
+    }
+
+    .list{
+        display: none;
+    }
+}
