@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 300px;
+}
+
+form button {
+  background: #fe4c50;
+  width: 40%;
+  margin-top: 30px;
+  padding: 5px 10px;
+  color: white;
+  border: 1px solid #fe4c50;
+  border-radius: 15px;
+}

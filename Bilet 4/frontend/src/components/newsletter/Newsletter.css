@@ -1,0 +1,38 @@
+#newsletter {
+  width: 100%;
+  background: #f2f2f2;
+  margin-top: 81px;
+  padding: 20px 0;
+}
+
+.news-btn {
+  background: #fe4c50;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+}
+
+.news-input {
+  padding: 10px;
+  border: none;
+  width: 300px;
+}
+
+
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:768px){
+  .col-6{
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .news-btn{
+    margin-top: 20px;
+    padding:8px 20px;
+  }
+}

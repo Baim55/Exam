@@ -1,22 +1,20 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import { useDispatch, useSelector } from "react-redux";
+import { minusBtn, plusBtn, removeBasket } from "../../redux/basketSlice";
 import Button from "@mui/material/Button";
 import "./Basket.css";
-import { minusBtn, plusBtn, removeBasket } from "../../redux/basketSlice";
 
 const Basket = () => {
   let { basket } = useSelector((state) => state.basket);
-  const dispatch = useDispatch();
-  let total = basket
-    .reduce((sum, item) => sum + item.price * item.count, 0)
-    .toFixed(2);
+  let dispatch = useDispatch();
+  let total = basket.reduce((sum, item) => sum + item.price * item.count, 0);
   return (
     <div className="container">
       <Table bordered>
         <thead>
           <tr>
-            <th>Image</th>
+            <th>Images</th>
             <th>Title</th>
             <th>Price</th>
             <th>Count</th>
@@ -31,11 +29,12 @@ const Basket = () => {
                   <img src={item.image} alt="" style={{ width: "150px" }} />
                 </td>
                 <td>{item.title}</td>
-                <td>${item.price}</td>
+                <td>${item.price}.00</td>
                 <td>
                   <button
                     className="basket-btn"
                     onClick={() => dispatch(minusBtn(item._id))}
+                    disabled={item.count == 1}
                   >
                     -
                   </button>
@@ -51,6 +50,7 @@ const Basket = () => {
                   <Button
                     variant="contained"
                     color="error"
+                    size="small"
                     onClick={() => dispatch(removeBasket(item._id))}
                   >
                     Remove
@@ -60,7 +60,7 @@ const Basket = () => {
             ))}
         </tbody>
       </Table>
-      <p>Total Price: ${total}</p>
+      <p className="total">Total Price: ${total}.00</p>
     </div>
   );
 };
