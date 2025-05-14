@@ -1,0 +1,27 @@
+#leader-area{
+    margin: 100px 0;
+}
+
+.leader-title{
+    text-align: center;
+    
+}
+.leader-title h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.leader-cards{
+    display: flex;flex-wrap: wrap;
+}
+
+.leader-card{
+    width: 33.3%;
+    text-align: center;
+}
+
+.leader-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

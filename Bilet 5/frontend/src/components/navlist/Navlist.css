@@ -1,0 +1,18 @@
+.list{
+    display: flex;
+    gap: 20px;
+}
+
+.burger{
+    display: none;
+}
+
+@media(max-width:768px){
+    .burger{
+        display: block;
+    }
+
+    .list{
+        display: none;
+    }
+}

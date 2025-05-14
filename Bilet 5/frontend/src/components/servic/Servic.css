@@ -1,0 +1,30 @@
+.servic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.servic>div {
+    width: 33.3%;
+}
+
+.servic1 {
+    background: #4e4e4e;
+    padding: 20px 30px;
+}
+
+.servic-title {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+
+.servic2 {
+    background-color: #fd5f00;
+    padding: 20px 30px;
+}
+
+.servic3 {
+    background-color: #a23131;
+    padding: 20px 30px;
+}
