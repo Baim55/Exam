@@ -1,13 +1,8 @@
-import React from 'react'
-import "./Hero.css"
-
+import React from "react";
+import "./Hero.css";
 
 const Hero = () => {
-    return (
-        <section id="hero-area">
+  return <section id="hero-area"></section>;
+};
 
-        </section>
-    )
-}
-
-export default Hero
+export default Hero;

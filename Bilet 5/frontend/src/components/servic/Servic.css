@@ -28,3 +28,14 @@
     background-color: #a23131;
     padding: 20px 30px;
 }
+
+@media(max-width:768px){
+    .servic{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .servic>div {
+    width: 100%;
+}
+}

@@ -49,7 +49,7 @@ const router = createBrowserRouter([
         element: <Basket />
       },
       {
-        path: "/detail",
+        path: "/detail/:id",
         element: <Detail />
       },
     ]

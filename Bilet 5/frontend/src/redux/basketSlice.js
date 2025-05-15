@@ -18,13 +18,13 @@ export const basketSlice = createSlice({
             state.basket = state.basket.filter((item) => item._id !== action.payload)
         },
         plusBtn: (state, action) => {
-            let findProduct = state.basket.find((item) => item._if == action.payload);
+            let findProduct = state.basket.find((item) => item._id == action.payload);
             if (findProduct) {
                 findProduct.count++
             }
         },
         minusBtn: (state, action) => {
-            let findProduct = state.basket.find((item) => item._if == action.payload);
+            let findProduct = state.basket.find((item) => item._id == action.payload);
             if (findProduct) {
                 findProduct.count--
             }

@@ -1,0 +1,11 @@
+.table th,
+.table td {
+  text-align: center;
+}
+
+.count-btn {
+  background: inherit;
+  padding: 10px;
+  border: none;
+  font-size: 30px;
+}

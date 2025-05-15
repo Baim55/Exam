@@ -1,12 +1,26 @@
-import React from 'react'
+import React from "react";
+import "./Product.css";
+import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addBasket } from "../../redux/basketSlice";
 
 const Product = ({ product }) => {
-    return (
-        <div>
-            <img src={product.image} alt="" />
-            <h2>{product.title}</h2>
-        </div>
-    )
-}
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
 
-export default Product
+  const handleAddBasket = (e) => {
+    e.stopPropagation();
+    dispatch(addBasket(product));
+  };
+
+  return (
+    <div className="product" onClick={() => navigate(`/detail/${product._id}`)}>
+      <img src={product.image} alt="" />
+      <h4>{product.title}</h4>
+      <p>${product.price}</p>
+      <button onClick={handleAddBasket}>Add Basket</button>
+    </div>
+  );
+};
+
+export default Product;
