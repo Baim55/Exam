@@ -1,0 +1,24 @@
+.product{
+    width: 33.3%;
+    padding: 50px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    border-right: 1px solid rgb(226, 225, 225);
+    border-left: 1px solid rgb(226, 225, 225);
+}
+
+.product-title{
+    text-align: center;
+}
+
+.product-title button{
+    background: #207dff;
+    padding: 5px 20px;
+    border: 1px solid #207dff;
+    color: white;
+}
+
+@media(max-width:768px){
+    .product{
+        width: 100%;
+    }
+}

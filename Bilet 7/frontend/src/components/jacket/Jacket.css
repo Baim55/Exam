@@ -1,0 +1,37 @@
+#jacket-area{
+    padding: 100px 0;
+}
+
+.jacket{
+    display: flex;
+}
+
+.jacket-img img{
+    width: 90%;
+}
+
+.jacket-title{
+    width: 50%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jacket-title h1{
+    font-size: 70px;
+}
+
+.jacket-title button{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    border: none;
+}
+
+@media(max-width:768px){
+    .jacket-img,.jacket-title{
+        width: 100%;
+    }
+}
