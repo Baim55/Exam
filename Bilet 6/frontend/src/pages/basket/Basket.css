@@ -1,0 +1,13 @@
+th,td{
+    text-align: center;
+}
+
+.basket-btn{
+    border: none;
+    background: inherit;
+    padding: 6px;
+}
+
+.table{
+    margin-top: 20px;
+}

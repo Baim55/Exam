@@ -1,0 +1,34 @@
+#client-area{
+    padding: 100px 0;
+}
+
+.client-img{
+    width: 20%;
+    border-right: 1px solid #ddd;
+    padding: 30px;
+}
+
+.client-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.client-img:nth-child(5n) {
+  border-right: none;
+}
+.client-img:nth-child(-n+5) {
+  border-bottom: 1px solid #ddd;
+}
+
+.client-img:nth-child(n+6) {
+  border-top: 1px solid #ddd;
+}
+
+@media(max-width:768px){
+    .client-img{
+        width: 100%;
+    }
+}

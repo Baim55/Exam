@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-admin{
+    background: inherit;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
