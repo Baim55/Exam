@@ -1,5 +1,36 @@
-.products{
-    display: flex;
-    flex-wrap: wrap;
+.products {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.sort input{
+    padding: 5px 10px;
+}
+
+.sort button {
+  background-color: #207dff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.search {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #207dff;
+}
+
+@media (max-width: 768px) {
+  .sort {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,69 +1,94 @@
 #hero-area {
-    height: 95vh;
+  height: auto;
 }
 
 .hero {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hero-title {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-title h1 {
-    font-size: 70px;
-    text-transform: uppercase;
+  font-size: 70px;
+  text-transform: uppercase;
 }
 
 .hero-title h4 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .hero span {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .hero-price {
-    text-decoration: line-through;
-    margin-left: 20px;
+  text-decoration: line-through;
+  margin-left: 20px;
+  color: gray;
 }
 
 .hero-img {
-    width: 50%;
+  width: 50%;
 }
 
 .hero-img img {
-    height: 95vh;
+  height: 95vh;
+  width: auto;
+  object-fit: contain;
 }
 
 .hero-btn,
 .btn-hero {
-    padding: 12px 30px;
-    margin: 50px 10px 0 0;
+  padding: 12px 30px;
+  margin: 50px 10px 0 0;
 }
 
 .hero-btn {
-    background: inherit;
-    color: #207dff;
-    border: 1px solid #207dff;
+  background: inherit;
+  color: #207dff;
+  border: 1px solid #207dff;
 }
 
 .btn-hero {
-    background: #207dff;
-    color: white;
-    border: 1px solid #207dff;
+  background: #207dff;
+  color: white;
+  border: 1px solid #207dff;
 }
 
-@media(max-width:768px) {
-    .hero-img {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: ;
-    }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-title,
+  .hero-img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-img {
+    height: auto;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .hero-title h1 {
+    font-size: 40px;
+  }
+
+  .hero span {
+    font-size: 24px;
+  }
 }

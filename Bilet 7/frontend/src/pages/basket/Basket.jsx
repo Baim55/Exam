@@ -9,6 +9,7 @@ const Basket = () => {
 
   let { basket } = useSelector((state) => state.basket)
   let dispatch = useDispatch()
+  let total = basket.reduce((sum,item)=>sum+item.price*item.count,0).toFixed(2)
 
   return (
     <div className='container'>
@@ -42,6 +43,7 @@ const Basket = () => {
           }
         </tbody>
       </Table>
+      <p className='total'>Total Price: ${total}</p>
     </div>
   )
 }

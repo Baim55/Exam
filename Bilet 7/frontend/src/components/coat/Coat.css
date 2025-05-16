@@ -1,29 +1,31 @@
-#jacket-area{
+#coat-area{
     padding: 100px 0;
+    height: 700px;
 }
 
-.jacket{
+.coat{
     display: flex;
 }
 
-.jacket-img img{
-    width: 90%;
+.coat-img img{
+    width: 100%;
 }
 
-.jacket-title{
-    width: 50%;
+.coat-title{
+    width: 100%;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.jacket-title h1{
+.coat-title h1{
     font-size: 70px;
 }
 
-.jacket-title button{
+.coat-title button{
     background: black;
     color: white;
     padding: 9px 20px;
@@ -31,10 +33,10 @@
 }
 
 @media(max-width:768px){
-    .jacket-img,.jacket-title{
+    .coat-img,.coat-title{
         width: 100%;
     }
-    .jacket{
+    .coat{
     display: flex;
     flex-wrap: wrap;
 }
