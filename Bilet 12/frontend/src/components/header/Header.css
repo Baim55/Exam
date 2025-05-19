@@ -1,0 +1,10 @@
+#header-area{
+    padding: 10px 0;
+    background-color: #404044 ;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

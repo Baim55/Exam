@@ -1,0 +1,36 @@
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../../assets/images/bg_1.jpg.webp);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-title {
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.hero-title h2 {
+    font-family: "Indie Flower", cursive;
+    font-size: 72px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero-title button {
+    color: white;
+    font-weight: 700;
+    background: inherit;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+@media(max-width:768px) {
+    .hero-title h2{
+        font-size: 40px;
+    }
+}

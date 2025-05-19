@@ -1,0 +1,21 @@
+.table{
+    position: relative;
+     top: 100px;
+}
+
+th,td{
+    text-align: center;
+}
+
+.basket-btn{
+    background: inherit;
+    padding: 10px;
+    border: none;
+}
+
+.total{
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+}

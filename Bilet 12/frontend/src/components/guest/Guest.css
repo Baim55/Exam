@@ -1,0 +1,25 @@
+#guest-area{
+    padding: 100px 0;
+}
+
+.guests{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.guest{
+    width: calc(33.33% - 20px);
+    text-align: center;
+    padding: 50px;
+}
+
+.guest img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.guest-title{
+    text-align: center;
+}

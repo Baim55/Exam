@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+.list-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.burger {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .list li {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}

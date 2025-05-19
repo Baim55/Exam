@@ -1,0 +1,28 @@
+.product{
+    width: calc(50% - 30px);
+    display: flex;
+    background: white;
+    padding: 10px 30px ;
+}
+
+.product-img{
+    margin-right: 30px;
+}
+
+.product-img img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.product-price{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.product-title button{
+    background-color: #ffb400;
+    border: none;
+    padding: 5px 10px;
+    font-weight: 700;
+}

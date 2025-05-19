@@ -1,0 +1,23 @@
+#detail-area {
+    margin-top: 300px;
+}
+
+.detail-img {
+    margin-right: 50px;
+}
+
+.detail-img img {
+    width: 600px;
+}
+
+.detail-title {
+    position: relative;
+    top: 60px;
+}
+
+.detail-btn button {
+    background-color: #ffb400;
+    border: none;
+    padding: 5px 10px;
+    font-weight: 700;
+}
