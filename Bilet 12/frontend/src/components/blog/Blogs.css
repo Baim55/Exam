@@ -1,0 +1,38 @@
+#blog-area {
+  background: #fafafa !important;
+  padding: 100px 0;
+}
+
+.blogs-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog {
+  width: calc(33.333% - 20px);
+  background-color: white;
+}
+
+.blog img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  position: relative;
+}
+
+.blog-title {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .blog {
+    width: 100%;
+  }
+}
