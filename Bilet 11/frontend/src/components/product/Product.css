@@ -1,0 +1,28 @@
+.product {
+    text-align: center;
+    background-color: white;
+    
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-title {
+    color: #7971ea;
+    margin: 30px;
+}
+
+.product-title button{
+    background: #7971ea;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+@media (max-width:768px){
+    .product{
+        width: 100%;
+    }
+}

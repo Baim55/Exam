@@ -1,0 +1,33 @@
+#products-area {
+    background-color: #eaecee;
+    padding: 100px 0;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.products-area {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.sort-btn {
+    background: #7971ea;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.sort{
+    margin: 20px 0;
+}
+
+@media (max-width:768px){
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

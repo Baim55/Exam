@@ -1,0 +1,25 @@
+.list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list li{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.burger{
+    display: none;
+}
+
+@media(max-width:768px){
+    .list li{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+}

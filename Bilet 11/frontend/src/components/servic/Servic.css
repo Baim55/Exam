@@ -1,0 +1,28 @@
+.servic{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.servic-div{
+    width: 33.3%;
+    padding: 20px;
+    display: flex;
+}
+
+.servic-icon{
+    font-size: 40px;
+    color: #7971ea;
+}
+
+.servic-title{
+    margin-left: 20px;
+}
+
+@media (max-width:768px){
+    .servic-div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
