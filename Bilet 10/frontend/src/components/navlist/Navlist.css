@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  gap: 30px;
+}
+
+.list li {
+  text-transform: uppercase;
+}
+
+.burger{
+  display: none;
+}
+
+@media(max-width:768px){
+  .burger{
+    display: block;
+  }
+  .list li{
+    display: none;
+  }
+}

@@ -7,4 +7,4 @@ productRouter.post("/",createProduct)
 productRouter.get("/",getProducts)
 productRouter.delete("/:id",deleteProduct)
 
-export default productRouter
+export default productRouter 

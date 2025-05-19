@@ -1,0 +1,9 @@
+.not-link {
+  color: black;
+  font-weight: 700;
+}
+
+.not-link:hover {
+  color: #930077;
+  transition: all 0.3s;
+}

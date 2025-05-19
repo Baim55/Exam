@@ -13,27 +13,24 @@ export const getProducts = createAsyncThunk("products/get", async () => {
   return data;
 });
 
-export const postProducts = createAsyncThunk("products/post", async (data) => {
+export const deleteProduct = createAsyncThunk("products/delete", async (id) => {
+  await axios.delete(`${baseUrl}/${id}`);
+  return id;
+});
+
+export const postProduct = createAsyncThunk("products/post", async (data) => {
   await axios.post(`${baseUrl}`, data);
   return data;
 });
 
-export const deleteProducts = createAsyncThunk(
-  "products/delete",
-  async (id) => {
-    await axios.delete(`${baseUrl}/${id}`);
-    return id;
-  }
-);
-
 export const productSlice = createSlice({
-  name: "product",
+  name: "products",
   initialState,
   reducers: {
     sortBy: (state, action) => {
-      if (action.payload == "high") {
+      if (action.payload === "high") {
         state.products = state.products.sort((a, b) => b.price - a.price);
-      } else if (action.payload == "low") {
+      } else if (action.payload === "low") {
         state.products = state.products.sort((a, b) => a.price - b.price);
       }
     },
@@ -47,13 +44,13 @@ export const productSlice = createSlice({
     builder.addCase(getProducts.fulfilled, (state, action) => {
       state.products = action.payload;
       state.allProducts = action.payload;
-    }),
-      builder.addCase(postProducts.fulfilled, (state, action) => {
-        state.products.push(action.payload);
-      }),
-      builder.addCase(deleteProducts.fulfilled, (state, action) => {
-        state.products.filter((item) => item == action.payload);
-      });
+    });
+    builder.addCase(deleteProduct.fulfilled, (state, action) => {
+      state.products.filter((item) => item._id == action.payload);
+    });
+    builder.addCase(postProduct.fulfilled, (state, action) => {
+      state.products.push(action.payload);
+    });
   },
 });
 

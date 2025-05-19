@@ -1,0 +1,27 @@
+.detail {
+  margin-top: 50px;
+}
+
+.detail-img img {
+  width: 500px;
+}
+
+.detail-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.detail-btn button {
+  background: #930077;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}

@@ -1,0 +1,17 @@
+.list{
+    display: flex;
+    gap: 40px;
+}
+
+.burger{
+  display: none;
+}
+
+@media(max-width:768px){
+  .burger{
+    display: block;
+  }
+  .list li{
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.hero-img {
+  background-image: url(../../assets/images/hero-2.jpg.webp);
+  height: 83vh;
+  background-size: cover;
+  background-position: top center;
+}
+
+.hero-title {
+  width: 48%;
+  position: relative;
+  top: 180px;
+}
+
+.hero-title span {
+  font-size: 16px;
+  color: #111111;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.hero-title h2 {
+  font-size: 43px;
+  line-height: 60px;
+  margin-bottom: 28px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.hero-title button {
+  background-color: #f45d96;
+  border: none;
+  color: white;
+  padding: 14px 30px 12px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .hero-title h2 {
+    font-size: 30px;
+  }
+
+  .hero-title {
+    width: 100%;
+    position: relative;
+    top: 50%px;
+    text-align: center;
+  }
+}

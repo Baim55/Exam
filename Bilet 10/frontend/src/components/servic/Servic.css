@@ -1,0 +1,34 @@
+#servic {
+  padding: 80px 0;
+}
+
+.servic {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services {
+  width: 25%;
+  display: flex;
+}
+
+.servic-img {
+  margin-right: 10px;
+}
+
+.servic-img img {
+  width: 40px;
+}
+
+.servic-title p {
+  color: #686767;
+  font-size: 14px;
+}
+
+
+@media(max-width:768px){
+  .services{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

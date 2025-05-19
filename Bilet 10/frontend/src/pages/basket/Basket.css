@@ -1,0 +1,14 @@
+th,td{
+    text-align: center;
+}
+
+.basket-btn{
+    background: inherit;
+    border: none;
+    padding: 10px;
+}
+
+.total{
+    font-size: 20px;
+    font-weight: 700;
+}

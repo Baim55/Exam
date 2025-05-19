@@ -1,0 +1,57 @@
+#contact-area {
+  padding-top: 80px;
+}
+
+.contact-img {
+  background-image: url(../../assets/images/call-bg.jpg.webp);
+  height: 69vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.contact-title {
+  color: white;
+  width: 40%;
+  position: relative;
+  top: 100px;
+  left: 70px;
+}
+
+.contact-title h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-title p {
+  text-transform: uppercase;
+}
+
+.contact-btn button {
+  border: none;
+  padding: 13px 30px;
+  border-radius: 50px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.contact-btn .now {
+  background-color: #f45d96;
+  color: white;
+}
+.contact-btn .contact {
+  background-color: white;
+  color: #f45d96;
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 0px;
+  }
+}

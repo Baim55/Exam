@@ -1,0 +1,10 @@
+th,
+td {
+  text-align: center;
+}
+
+.basket-btn {
+  background: inherit;
+  padding: 10px;
+  border: none;
+}

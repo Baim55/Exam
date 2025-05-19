@@ -1,0 +1,25 @@
+.detail-area{
+    padding: 50px 0;
+}
+
+.detail-img img {
+  width: 80%;
+}
+
+.detail-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detail-title p{
+    font-size: 20px;
+}
+
+.detail-btn button {
+  background-color: #f45d96;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 10px;
+}

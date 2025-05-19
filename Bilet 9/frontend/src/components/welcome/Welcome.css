@@ -1,0 +1,32 @@
+.welcome-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url(../../assets/images/hero_2.jpg.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-title {
+  text-align: center;
+  color: white;
+}
+
+.welcome-title span {
+  font-size: 24px;
+}
+
+.welcome-title h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+
+@media(max-width:768px){
+  .welcome-title h1{
+    font-size: 50px;
+  }
+}
