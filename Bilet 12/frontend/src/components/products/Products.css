@@ -40,3 +40,31 @@
     padding: 10px 20px;
     font-weight: 700;
 }
+
+.sort{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.search input{
+    padding: 5px 10px;
+}
+
+.sortby button{
+    padding: 10px 20px;
+    background: inherit;
+    color: #ffb400;
+    border: 1px solid #ffb400;
+    margin-left: 10px;
+}
+
+@media(max-width:768px){
+    .sort{
+       justify-content: center;
+    }
+    .search{
+        margin-bottom: 10px;
+    }
+}
