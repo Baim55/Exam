@@ -6,6 +6,7 @@ import "./Products.css"
 
 const Products = () => {
     let { products } = useSelector((state) => state.products)
+    console.log(products)
     let dispatch = useDispatch()
     useEffect(() => {
         dispatch(getProducts())

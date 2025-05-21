@@ -1,22 +1,26 @@
-import { configureStore } from '@reduxjs/toolkit'
-import productSlice from './productSlice'
-import { persistStore, persistReducer } from 'redux-persist'
-import storage from 'redux-persist/lib/storage'
-import basketSlice from './basketSlice'
-
+import { configureStore } from "@reduxjs/toolkit";
+import productSlice from "./productSlice";
+import { persistStore, persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
+import basketSlice from "./basketSlice";
 
 const persistBasketConfig = {
-    key: 'basket',
-    storage,
-}
+  key: "basket",
+  storage,
+};
 
-const persistedBasketReducer = persistReducer(persistBasketConfig, basketSlice)
+const persistedBasketReducer = persistReducer(persistBasketConfig, basketSlice);
 
 export const store = configureStore({
-    reducer: {
-        products: productSlice, basket: persistedBasketReducer
-    },
-})
+  reducer: {
+    products: productSlice,
+    basket: persistedBasketReducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
+});
 
-const persistor = persistStore(store)
-export default persistor
+const persistor = persistStore(store);
+export default persistor;
